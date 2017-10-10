@@ -1,0 +1,15 @@
+.bg-main {
+    background-image: url(../images/bg_main.png);
+    background-size: cover;
+}
+
+.room-holder {
+    width: 30%;
+    height: 30px;
+    padding: 0;
+    background: white;
+    margin: 10px 0 0 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    justify-content: center
+}
