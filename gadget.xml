@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>4KS2 onDuty&#8482;</name>
+  <version>1.0.0.0</version>
+  <author name="4KS2 Creative">
+    <info url="Coming Soon" />
+    <logo src="images/ks2_creative.png"/>
+  </author>
+  <copyright>&#169; 2017</copyright>
+  <description>Gadget to show who's on duty in the recent 4KS2's class</description>
+    <icons>
+    <icon height="48" width="48" src="images/ks2_creative.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="ks2login.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+    </host>
+  </hosts>
+</gadget>
