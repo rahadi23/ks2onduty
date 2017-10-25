@@ -3,25 +3,22 @@
 
 <head>
     <!-- <link href="css/googleicon.css" rel="stylesheet"> -->
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" /> -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/helper.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/dimens.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen,projection" />
-
-    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
 </head>
 
-<body>
-    <div class="card grey lighten-3 margin-none" style="border-radius: 5px; overflow: hidden; height: 400px; width:300px;">
+<body class="grey lighten-3" onload="init()">
+    <g:background id="mainBg" style="width:100%; height: 100%">
+        <!-- <div class="card grey lighten-3 margin-none" style="border-radius: 5px; overflow: hidden; height: 400px; width:300px;"> -->
         <div class="valign-wrapper light-blue darken-2 white-text" style="justify-content: flex-end; flex-direction: row; height: 17.935px">
-            <i class="material-icons" style="font-size: 11.935px">access_time</i>
+            <i aria-hidden="true" class="fa fa-clock-o" style="font-size: 11.935px"></i>
             <p style="margin: 0 15px 0 5px; font-size: 10px">Jam</p>
-            <i class="material-icons" style="font-size: 11.935px">date_range</i>
+            <i aria-hidden="true" class="fa fa-calendar" style="font-size: 11.935px"></i>
             <p style="margin: 0 7px 0 5px; font-size: 10px">Tanggal</p>
         </div>
         <div class="row margin-none valign-wrapper light-blue padding-s" style="width: 100%; height: 70px">
@@ -33,12 +30,12 @@
                 <p class="margin-none padding-none white-text" style="font-size: 8px">Selasa, 17 Oktober 2017</p>
                 <p class="margin-none padding-none white-text" style="font-size: 10px; font-weight: bold">STATISTIK DISTRIBUSI JASA (KS)</p>
                 <p class="margin-none padding-none white-text" style="font-size: 8px">
-                    <i class="material-icons margin-none" style="font-size: 8px">person</i>
+                    <i aria-hidden="true" class="fa fa-user margin-none" style="font-size: 8px"></i>
                     <i style="margin-left: 2px">Sasmito Hadi Wibowo</i>
                 </p>
             </div>
             <a href="#" style="align-self: flex-start;">
-                <i class="material-icons white-text" style="font-size: 15px">refresh</i>
+                <i aria-hidden="true" class="fa fa-refresh white-text" style="font-size: 15px"></i>
             </a>
         </div>
         <div style="height: 20px">
@@ -60,16 +57,16 @@
                                 <p class="margin-none padding-none" style="font-size: 10px; font-weight: bold">KETUA KELAS</p>
                             </div>
                             <p class="margin-none padding-none valign-wrapper" style="font-size: 8px;">
-                                <i class="material-icons" style="font-size: 8px;  margin: 0 2px 0 0">phone</i>081234567890</p>
+                                <i aria-hidden="true" class="fa fa-phone" style="font-size: 8px;  margin: 0 2px 0 0"></i>081234567890</p>
                             <div class="valign-wrapper" style="margin-top: 3px">
                                 <a href="" class="amber darken-2 white-text valign-wrapper" style="width:15px; height:15px; font-size: 8px; border-radius: 10px; justify-content: center; margin-left: 3px">
-                                    <i class="material-icons" style="font-size: 10px">email</i>
+                                    <i aria-hidden="true" class="fa fa-envelope-o" style="font-size: 10px"></i>
                                 </a>
                                 <a href="" class="amber darken-2 white-text valign-wrapper" style="width:15px; height:15px; font-size: 8px; border-radius: 10px; justify-content: center; margin-left: 3px">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <i aria-hidden="true" class="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
                                 <a href="" class="amber darken-2 white-text valign-wrapper" style="width:15px; height:15px; font-size: 8px; border-radius: 10px; justify-content: center; margin-left: 3px">
-                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    <i aria-hidden="true" class="fa fa-instagram" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>
@@ -90,16 +87,16 @@
                                     <p class="margin-none padding-none" style="font-size: 10px; font-weight: bold">KETUA KELAS</p>
                                 </div>
                                 <p class="margin-none padding-none valign-wrapper" style="font-size: 8px;">
-                                    <i class="material-icons" style="font-size: 8px;  margin: 0 2px 0 0">phone</i>081234567890</p>
+                                    <i aria-hidden="true" class="fa fa-phone" style="font-size: 8px;  margin: 0 2px 0 0"></i>081234567890</p>
                                 <div class="valign-wrapper" style="margin-top: 3px">
                                     <a href="" class="amber darken-2 white-text valign-wrapper" style="width:15px; height:15px; font-size: 8px; border-radius: 10px; justify-content: center; margin-left: 3px">
-                                        <i class="material-icons" style="font-size: 10px">email</i>
+                                        <i aria-hidden="true" class="fa fa-envelope-o" style="font-size: 10px"></i>
                                     </a>
                                     <a href="" class="amber darken-2 white-text valign-wrapper" style="width:15px; height:15px; font-size: 8px; border-radius: 10px; justify-content: center; margin-left: 3px">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <i aria-hidden="true" class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                     <a href="" class="amber darken-2 white-text valign-wrapper" style="width:15px; height:15px; font-size: 8px; border-radius: 10px; justify-content: center; margin-left: 3px">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <i aria-hidden="true" class="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
@@ -114,16 +111,16 @@
                                     <p class="margin-none padding-none" style="font-size: 10px; font-weight: bold">KETUA KELAS</p>
                                 </div>
                                 <p class="margin-none padding-none valign-wrapper" style="font-size: 8px;">
-                                    <i class="material-icons" style="font-size: 8px;  margin: 0 2px 0 0">phone</i>081234567890</p>
+                                    <i aria-hidden="true" class="fa fa-phone" style="font-size: 8px;  margin: 0 2px 0 0"></i>081234567890</p>
                                 <div class="valign-wrapper" style="margin-top: 3px">
                                     <a href="" class="amber darken-2 white-text valign-wrapper" style="width:15px; height:15px; font-size: 8px; border-radius: 10px; justify-content: center; margin-left: 3px">
-                                        <i class="material-icons" style="font-size: 10px">email</i>
+                                        <i aria-hidden="true" class="fa fa-envelope-o" style="font-size: 10px"></i>
                                     </a>
                                     <a href="" class="amber darken-2 white-text valign-wrapper" style="width:15px; height:15px; font-size: 8px; border-radius: 10px; justify-content: center; margin-left: 3px">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <i aria-hidden="true" class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                     <a href="" class="amber darken-2 white-text valign-wrapper" style="width:15px; height:15px; font-size: 8px; border-radius: 10px; justify-content: center; margin-left: 3px">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <i aria-hidden="true" class="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
@@ -136,7 +133,12 @@
             <p style="margin: 0 auto 0 7px; font-size: 10px; align-self: start center;">&copy; 2017 4KS2 Creative</p>
             <a class="white-text" style="margin-left: auto; margin-right: 7px; font-size: 10px; align-self: start center;" href="">Contact Us</a>
         </div>
-    </div>
+        <!-- </div> -->
+    </g:background>
 </body>
+
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/onduty.js"></script>
 
 </html>
